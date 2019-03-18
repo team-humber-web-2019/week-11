@@ -1,10 +1,12 @@
-# Week 11
-## Monday, March 18th, 2019
+# Week 11 `Monday, March 18th, 2019`
 
-### Schedule
+## Schedule
 
-#### Morning
-1. __09:20__: HTML/CSS Quiz Review
+### Morning
+1. __08:55__: Prepare for the day
+    * Prepare quiz material
+    * Clone your Comp 2
+2. __09:20__: HTML/CSS Quiz Review
     * _You ask, I answer_
     * Example review
 2. __10:00__: Remaining Weeks
@@ -22,16 +24,15 @@
     * Template literals
     * Javascript math
     * Output to console
-5. __11:00__: Coffee break
+
+### Lunch
+- __11:40__ to __12:35__
+
+### Afternoon
 6. __11:10__: Review Comp 1 Changes
     * Upto 3 mins per person
 7. __11:10__: Javascript lab
     * Variables and output
-
-#### Lunch
-- __11:50__ to __12:45__
-
-#### Afternoon
 1. __12:45__: Quiz 1
     * See Blackboard "Announcement" for notes
 2. __13:20__: Javascript morning review & Lab takeup
@@ -43,7 +44,7 @@
     * "Human" `Object`
 
 
-### Homework
+## Homework
 * Recipe data model
 
 

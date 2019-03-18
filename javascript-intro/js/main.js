@@ -1,34 +1,14 @@
-console.log(`Hello World!`);
 // Single line comment
 /* Multi line comment */
+console.log(`Hello World!`);
 
 
-
-// VARIABLES
-// - Arithmetic operators: + - * / = ()
-        // % **
-        // PEDMAN (Parenthesis, Exponents, Division/Multiplication, Addition/Subtraction)
-// - Rules to naming
-//      - Should start with a small letter
-//      - Use camel case for mutiple words
-//          - my-balance >> myBalance or mybalance
-//          - background-color >> backgroundColor
-//      - Symbols are not allowed, other than: _ and $
-//      - Must not start with a number 
-//      - Must not use Javascript reserved keywords
-// - Variable types
-//      - Numbers
-//      - Strings
-// - String notation ` vs ' vs "
-// - "let" vs "const" vs "var"
-// - Template literals
 
 // Number
 let myBalance = 1000;
 // String
-let myName = `Tim Berners-Lee`;
-// let myName = 'Tim Berners-Lee';
-// let myName = "Tim Berners-Lee";
+let myName = `Whatever Person`;
 
-//console.log('This is my friend\'s favourite class')
-//console.log("<div class=\"oops\">This a new dynamic element</div>")
+// The balance for Tim Berners-Lee is $1000.
+console.log(`The balance for ${myName} is $${myBalance}.`);
+// Note the first `$` is for the output formatting, the other is for the evaluation operator
