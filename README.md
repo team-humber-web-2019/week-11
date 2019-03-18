@@ -26,21 +26,23 @@
     * Output to console
 
 ### Lunch
-- __11:40__ to __12:35__
+- __11:40__ to __12:40__
 
 ### Afternoon
-6. __11:10__: Review Comp 1 Changes
+6. __12:40__: Review Comp 1 Changes
     * Upto 3 mins per person
-7. __11:10__: Javascript lab
+7. __12:40__: Javascript lab
     * Variables and output
-1. __12:45__: Quiz 1
+1. __13:30__: Quiz 1
     * See Blackboard "Announcement" for notes
-2. __13:20__: Javascript morning review & Lab takeup
-3. __13:40__: Javascript:
+2. __14:00__: Javascript morning review & Lab takeup
+3. __14:20__: Javascript:
     * `Boolean`
     * `Object`
     * Example: Todo List
-4. __14:30__: Javascript lab
+    * Arrays (pending available time)
+    * console.table()
+4. __15:00__: Javascript lab (take home)
     * "Human" `Object`
 
 
