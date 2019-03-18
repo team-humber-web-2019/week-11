@@ -11,7 +11,7 @@
         - Integers or decimals
     - `String`
         - String notation ` vs ' vs "
-        - Escape character: `/"` `/'` `/``
+        - Escape character: `/"` `/'`
 - [X] Rules for naming variables
     - Should start with a small letter
         - Use camel case for mutiple words (unlike CSS), example:
