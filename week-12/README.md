@@ -23,8 +23,8 @@
 
 ### Afternoon
 * MISC
-    * Start & End Times + Breaks
-    * Quiz Debrief
+    * Start (8:55) & End Times (3:30) + Breaks
+    * Quiz Debrief (58%)
     * Composite Project 1 Debrief
     * Composite Project 2
 * LESSON: More "DOM"

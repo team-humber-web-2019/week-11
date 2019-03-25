@@ -66,6 +66,7 @@ const song = {
     },
 };
 
+
 // Output:
 // Artist Name - Track Name (123 seconds, 2000)
 console.log(`${song.album.artist} - ${song.title} (${song.duration} seconds, ${song.album.year})`);
@@ -73,14 +74,18 @@ console.log(`${song.album.artist} - ${song.title} (${song.duration} seconds, ${s
 // CREATING DOCUMENT OUTPUT
 // 1. Find the element within the document and store it
 const eleTitle = document.getElementById(`title`);
-
 // 2. Modify a property
 eleTitle.innerHTML = song.title;
 
+// ARTIST
 const eleArtist = document.getElementById(`artist`);
 eleArtist.innerHTML = song.album.artist;
 //document.getElementById(`artist`).innerHTML = song.album.artist;
 
-// Lunch until 1pm:
-//  1. Take the lab from last week, create a list of 5 items (ul > li * 5) each to represent the output of the 5 exercises
-//  2. Complete this example, but consider the formatting of the output for album, year, genre, duration 
+// ALBUM NAME
+const eleAlbum = document.getElementById('album');
+eleAlbum.innerHTML =  `Album: ${song.album.name}`;
+// ALBUM YEAR
+// GENRE
+// DURATION
+
