@@ -15,7 +15,7 @@
     * Explore the DOM objects (innerHTML, style)
     * getElementById
 * PRACTICE LAB: "DOM"
-    1. Take the lab from last week, create a list of 5 items (ul > li * 5) each to represent the output of the 5 exercises
+    1. Take the lab from last week, create a list of 5 items (ul > li * 5) each to represent the output of the 5 exercises (be sure to give each a unique `id`: ex1, ex2, etc.)
     2. Complete this example, but consider the formatting of the output for album, year, genre, duration 
 
 ### Lunch
