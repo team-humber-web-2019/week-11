@@ -1,8 +1,8 @@
-let aNumber = 123;
-let aString = `One, two, three`;
+const aNumber = 123;
+const aString = `One, two, three`;
 
 // Boolean: true/false, true == 1, false == 0
-let aBoolean = false;
+const aBoolean = false;
 
 // Object
 // let myTask1 = `Finish learning about Objects`;
@@ -10,13 +10,13 @@ let aBoolean = false;
 // let isComplete1 = false;
 // let isComplete2 = false;
 
-let task1 = {
+const task1 = {
     name: `Finish learning about Objects`,
     isComplete: false,
     priority: 4
 };
 
-let task2 = {
+const task2 = {
     name: `Post all links for today`,
     isComplete: false,
     priority: 2
@@ -29,6 +29,6 @@ console.log(`${task1.name} (${task1.priority}): ${task1.isComplete}`);
 console.log(`${task2.name} (${task2.priority}): ${task2.isComplete}`);
 
 // Write an object for a Song
-let song = {
-    
-}
+const song = {
+
+};
