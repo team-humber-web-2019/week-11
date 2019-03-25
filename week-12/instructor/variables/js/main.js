@@ -2,7 +2,7 @@ const aNumber = 123;
 const aString = `One, two, three`;
 
 // Boolean: true/false, true == 1, false == 0
-const aBoolean = false;
+const aBoolean = true;
 
 // Object
 // let myTask1 = `Finish learning about Objects`;
