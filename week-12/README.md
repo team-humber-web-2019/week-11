@@ -15,9 +15,10 @@
     * Explore the DOM objects (innerHTML, style)
     * getElementById
 * Misc
+    * Start & End Times + Breaks
     * Quiz Debrief
-    * Comp 1 Debrief
-    * Start & End Times
+    * Composite Project 1 Debrief
+    * Composite Project 2
 
 ### Lunch
 1. 
