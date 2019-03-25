@@ -29,6 +29,58 @@ console.log(`${task1.name} (${task1.priority}): ${task1.isComplete}`);
 console.log(`${task2.name} (${task2.priority}): ${task2.isComplete}`);
 
 // Write an object for a Song
-const song = {
-
+const aSong = {
+    title: `Natural`,
+    durationSec: 176,
+    writer1: `Matt Man`,
+    writer2: `Robin Something`,
+    producer1: `Just One Person?`,
+    studio: `Some Studio`,
+    genre: `Alternative`,
+    lyrics: `In a world... very long string`,
+    albumName: `Origins`,
+    albumCover: `imagine-dragons-natural.jpg`,
+    albumYear: 2018,
+    albumTrackNumber: 1,
+    artistName: `Imagine Dragons`,
 };
+
+// Song specific data
+    // Album specific data
+        // Artist specific data
+const song = {
+    title: `Natural`,
+    duration: 176,
+    writer1: `Matt Man`,
+    writer2: `Robin Something`,
+    producer1: `Just One Person?`,
+    studio: `Some Studio`,
+    genre: `Alternative`,
+    lyrics: `In a world... very long string`,
+    trackNumber: 1,
+    album: {
+        name: `Origins`,
+        cover: `imagine-dragons-natural.jpg`,
+        year: 2018,
+        artist: `Imagine Dragons`
+    },
+};
+
+// Output:
+// Artist Name - Track Name (123 seconds, 2000)
+console.log(`${song.album.artist} - ${song.title} (${song.duration} seconds, ${song.album.year})`);
+
+// CREATING DOCUMENT OUTPUT
+// 1. Find the element within the document and store it
+const eleTitle = document.getElementById(`title`);
+
+// 2. Modify a property
+eleTitle.innerHTML = song.title;
+
+const eleArtist = document.getElementById(`artist`);
+eleArtist.innerHTML = song.album.artist;
+//document.getElementById(`artist`).innerHTML = song.album.artist;
+
+// Lunch until 1pm:
+//  1. Take the lab from last week, create a list of 5 items (ul > li * 5) each to represent the output of the 5 exercises
+//  2. Complete this example, but consider the formatting of the output for album, year, genre, duration 
