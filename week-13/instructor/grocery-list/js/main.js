@@ -8,7 +8,7 @@ const shoppingList = [
 // Select all HTML elements that need to be modified
 const eleItemList = document.getElementById(`itemList`);
 
-// Write a function that takes an "index" as a argument and will add a <li> for the row requested
+// Write a function called printItem that takes an "index" as a argument and will add a <li> for the row requested
 
 // Outputting to HTML
 eleItemList.innerHTML += `<li>You need ${shoppingList[0].qty} ${shoppingList[0].name} from the ${shoppingList[0].dept} department</li>`;
