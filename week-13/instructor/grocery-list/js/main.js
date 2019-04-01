@@ -32,6 +32,10 @@ let item3 = {
 //     item3
 // ];
 
+
+
+
+
 const shoppingList = [
     { qty: 10, name: `Apples`, dept: `Produce` },       // 0
     { qty: 2, name: `Steaks`, dept: `Meat` },           // 1
