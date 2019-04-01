@@ -19,8 +19,8 @@ const song = {
     },
 };
 
-
-const eleSong = document.getElementById('song');
+// Find the element #song, store its location in a variable
+const eleSong = document.getElementById('allSongs');
 eleSong.innerHTML = `
     <div>
         <img src="https://upload.wikimedia.org/wikipedia/en/9/95/Origins_cover.png" alt="Imagine Dragons - Origin">
