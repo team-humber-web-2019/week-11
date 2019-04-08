@@ -1,0 +1,16 @@
+.population {
+  list-style: none;
+  padding: 0;
+  margin: 1em 0;
+}
+.population > li {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.population > li:nth-child(even) {
+  background-color: #ccc;
+}
+.population > li:first-child {
+  background-color: #999;
+  font-weight: bold;
+}

@@ -22,22 +22,13 @@
     * Calling, input, return, default
 * LESSON: Arrays
     * push(), map()
-* LESSON: Arrays
-    * forEach() loop, filter()
-* LESSON: Conditions & Logic
-    * If statements
-* IN CLASS ASSIGNMENT: Game
 * TO DISCUSS:
     * Assignment talk
     * Repo workflow
     * Week 16
-* TAKE HOME MATERIAL ("ADVANCED" TOPICS):
-    * String functions
-    * Loops (counted)
-    * Conditions (ternary)
-    * Arrays (reduce, etc)
-
 
 ## Next Week:
+* Conditions
+* Arrays
 * Events (Intro)
 * DOM functions
