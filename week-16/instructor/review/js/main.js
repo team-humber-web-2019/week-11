@@ -1,26 +1,37 @@
 // Array
 const allProducts = [`Computer`, `Notebook`, `Mouse`, `Laptop`];
+
 const ulProducts = document.getElementById('products');
 
+// FUNCTION: getProductAsHTML
+//    Takes a string and return an HTML formatted string of whatever was passed
+// ARGUMENTS: prodName:String
+// RETURN: String
 
-const getProductAsHTML = (index) => {
+const getProductAsHTML = (prodName) => {
 
-  if ( !allProducts[index] ) return false;
-
-  return `<li class="product">${ allProducts[index] }</li>`;
+  return `<li class="product">${ prodName }</li>`;
 
 }
+
+
 
 const printAllProducts = () => {
 
   ulProducts.innerHTML = ``;
-  ulProducts.innerHTML += getProductAsHTML( 0 );
-  ulProducts.innerHTML += getProductAsHTML( 1 );
-  ulProducts.innerHTML += getProductAsHTML( 2 );
-  ulProducts.innerHTML += getProductAsHTML( 3 );
+
+  let formattedListItems = allProducts.map( getProductAsHTML );
+
+  ulProducts.innerHTML = formattedListItems.join('\n');
 
 } 
 
 // Print all products TWICE, just to test that we don't print two lists
 printAllProducts();
-printAllProducts();
+//printAllProducts();
+
+
+
+// allProducts.map( (prod) => {
+//   ulProducts.innerHTML += getProductAsHTML( prod );
+// })
