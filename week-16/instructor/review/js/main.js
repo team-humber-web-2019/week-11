@@ -1,5 +1,10 @@
 // Array
-const allProducts = [`Computer`, `Notebook`, `Mouse`, `Laptop`];
+const allProducts = [
+  { name: `Computer`, price: 2000 },
+  { name: `Notebook`, price: 20 },
+  { name: `Mouse`, price: 40 },
+  { name: `Laptop`, price: 3000 },
+];
 
 const ulProducts = document.getElementById('products');
 
@@ -8,9 +13,9 @@ const ulProducts = document.getElementById('products');
 // ARGUMENTS: prodName:String
 // RETURN: String
 
-const getProductAsHTML = (prodName) => {
+const getProductAsHTML = (prod) => {
 
-  return `<li class="product">${ prodName }</li>`;
+  return `<li class="product">${ prod.name }: $ ${ prod.price }</li>`;
 
 }
 
@@ -20,9 +25,12 @@ const printAllProducts = () => {
 
   ulProducts.innerHTML = ``;
 
-  let formattedListItems = allProducts.map( getProductAsHTML );
+  let formattedListItems = allProducts
+    .filter( prod => prod.price < 100 )
+    .map( getProductAsHTML )
+    .join('\n')
 
-  ulProducts.innerHTML = formattedListItems.join('\n');
+  ulProducts.innerHTML = formattedListItems;
 
 } 
 
