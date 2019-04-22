@@ -17,6 +17,7 @@ const printAllProducts = () => {
   ulProducts.innerHTML += getProductAsHTML( 0 );
   ulProducts.innerHTML += getProductAsHTML( 1 );
   ulProducts.innerHTML += getProductAsHTML( 2 );
+  ulProducts.innerHTML += getProductAsHTML( 3 );
 
 } 
 
