@@ -1,6 +1,36 @@
+h1 {
+  font: 2em helvetica, sans-serif;
+  margin: 0.5em;
+}
+.store {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: .25em;
+  background-color: #666;
+  padding: .25em;
+  margin: 1em;
+}
+
+.cell {
+  background-color: #fff;
+  padding: 1em;
+}
+
+
+.store h2 {
+  margin: 0.5em 0;
+  font: 1.5em helvetica, sans-serif;
+}
+.product {
+  margin: 2em 0;
+  display: grid;
+  grid-template-columns: 5em auto;
+}
+
+
 .pysical {
-    background-color: rgb(163, 163, 225);
+  background-color: rgb(163, 163, 225);
 }
 .digital {
-    background-color: rgb(208, 152, 128);
+  background-color: rgb(208, 152, 128);
 }
