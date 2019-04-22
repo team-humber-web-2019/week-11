@@ -4,7 +4,7 @@ h1 {
 }
 .store {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 3fr;
   grid-gap: .25em;
   background-color: #666;
   padding: .25em;
@@ -27,10 +27,3 @@ h1 {
   grid-template-columns: 5em auto;
 }
 
-
-.pysical {
-  background-color: rgb(163, 163, 225);
-}
-.digital {
-  background-color: rgb(208, 152, 128);
-}
